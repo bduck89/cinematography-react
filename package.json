@@ -1,0 +1,44 @@
+{
+  "name": "anca-badita-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=16.13.1",
+    "npm": ">=7.19.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theweboratory/anca-badita.git"
+  },
+  "author": "the weboratory",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theweboratory/anca-badita/issues"
+  },
+  "homepage": "https://github.com/theweboratory/anca-badita#readme",
+  "dependencies": {
+    "@google-cloud/storage": "^5.18.1",
+    "bcrypt": "^5.0.1",
+    "concurrently": "^6.5.1",
+    "connect-mongo": "^4.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "final-form": "^4.20.6",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.2.0",
+    "multer": "^1.4.4",
+    "node": "^16.13.1",
+    "npm": "^7.19.1",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0"
+  }
+}

@@ -1,0 +1,31 @@
+.admin-menu {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    width: 945px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .admin-menu button {
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    border-radius: 5px;
+    border: 0px;
+  }
+  
+  .admin-menu button:hover {
+    cursor: pointer;
+    background-color: cornflowerblue;
+  }
+  
+  .logout-button button {
+    background-color: cornflowerblue;
+  }
+  
+  .logout-button button:hover {
+    background-color: white;
+  }

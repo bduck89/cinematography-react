@@ -1,0 +1,43 @@
+.resume-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .category-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .category-list h2 {
+    font-size: 1em;
+  }
+
+  .category-list h3 {
+    font-size: 0.8em;
+  }
+
+  .production-column-titles {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .production-column {
+    width: 33.3%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+
+  @media screen and (min-width: 800px) {
+    .category-list h2 {
+      font-size: 1.3em;
+    }
+
+    .category-list h3 {
+      font-size: 1em;
+    }
+  }

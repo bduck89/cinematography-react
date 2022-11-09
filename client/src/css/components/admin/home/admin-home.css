@@ -1,0 +1,41 @@
+.admin-home {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .admin-home input {
+    width: 800px;
+  }
+  
+  .admin-home form {
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+  
+  .admin-home form button {
+    background-color: cornflowerblue;
+    width: 60px;
+    height: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    border-radius: 5px;
+    border: 0px;
+    margin-left: 20px;
+  }
+  
+  .admin-home form button:hover {
+    cursor: pointer;
+    background-color: white;
+  }
+  
+  .admin-home h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }

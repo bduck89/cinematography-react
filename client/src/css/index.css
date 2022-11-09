@@ -1,0 +1,493 @@
+.video-detail-card {
+  display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  background-color: rgb(54, 54, 54);
+  padding: 10px 50px 5px 10px;
+}
+
+.video-detail-card-buttons {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.video-detail-card-image img {
+  width: 300px;
+  height: 200px;
+}
+
+.video-detail-card-title-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 20px;
+  width: 40%;
+  align-items: center;
+}
+
+.video-detail-card-edit-button {
+  background-color: cornflowerblue;
+  width: 60px;
+  height: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.video-detail-card-edit-button:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.video-detail-card-delete-button {
+  color: white;
+  background-color: red;
+  width: 60px;
+  height: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.video-detail-card-delete-button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: red;
+}
+
+.video-list-new-button {
+  background-color: cornflowerblue;
+  width: 120px;
+  height: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  border-radius: 5px;
+  border: 0px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.video-list-new-button:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.video-list {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video-details-form h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.video-details-preview {
+  width: 500px;
+  height: 300px;
+  border: rgb(255, 255, 255) 2px solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.video-details-preview h1 {
+  margin-top: 80%;
+  position: relative;
+  bottom: 150px;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+
+.video-details-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.video-details-form-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.thumbnail-upload {
+  display: flex;
+}
+
+.thumbnail-upload input {
+  width: 200px;
+}
+
+.thumbnail-upload button {
+  background-color: cornflowerblue;
+  width: 80px;
+  height: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  border-radius: 5px;
+  border: 0px;
+  margin: 20px;
+}
+
+.ask-for-upload {
+  width: 400px;
+}
+
+.video-details-form-input label {
+  margin-bottom: 5px;
+}
+
+.video-details-form-input input {
+  width: 800px;
+  margin-bottom: 5px;
+}
+
+.video-details-form-submit {
+  background-color: cornflowerblue;
+  width: 80px;
+  height: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  border-radius: 5px;
+  border: 0px;
+  margin: 20px;
+}
+
+.video-details-form-cancel {
+  background-color: white;
+  width: 80px;
+  height: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  border-radius: 5px;
+  border: 0px;
+  margin: 20px;
+}
+
+.new-video-details {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video-submit-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.submit-button {
+  background-color: cornflowerblue;
+  width: 80px;
+  height: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  border-radius: 5px;
+  border: 0px;
+  margin: 20px;
+}
+
+.submit-button:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.cancel-button {
+  background-color: white;
+  width: 80px;
+  height: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  border-radius: 5px;
+  border: 0px;
+  margin: 20px;
+}
+
+.cancel-button:hover {
+  cursor: pointer;
+  background-color: cornflowerblue;
+}
+
+.new-video-details-card {
+  display: flex;
+  width: 100%;
+  height: 219px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  background-color: rgb(54, 54, 54);
+  padding: 10px 50px 5px 10px;
+}
+
+.tileboard-div {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.tileboard-preview {
+  display: flex;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  border: white 2px solid;
+  padding: 25px;
+}
+
+.video-delete {
+  width: 50%;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-delete-button {
+  color: white;
+  background-color: red;
+  width: 80px;
+  height: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  border-radius: 5px;
+  border: 0px;
+  margin-top: 25px;
+  margin-right: 15px;
+}
+
+.video-delete-button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: red;
+}
+
+.video-delete-cancel {
+  color: black;
+  background-color: white;
+  width: 80px;
+  height: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  border-radius: 5px;
+  border: 0px;
+  margin-top: 25px;
+}
+
+.video-delete-cancel:hover {
+  cursor: pointer;
+  background-color: cornflowerblue;
+}
+
+.admin-category-card-list {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  background-color: rgb(39, 39, 39);
+  margin: 10px;
+}
+
+.category-card {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.resume-drag-drop {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.category-card-details {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  align-items: center;
+}
+
+.production-detail-list {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+}
+
+.production-card-details {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.production-card-details h4 {
+  width: 100%;
+}
+
+.production-card-list {
+  width: 75%;
+}
+
+.admin-production-card-list {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  background-color: rgb(54, 54, 54);
+  margin: 5px;
+}
+
+.admin-production-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.admin-production-card h4 {
+  margin: 10px;
+}
+
+.delete-button {
+  background-color: red;
+  width: 80px;
+  height: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  border-radius: 5px;
+  border: 0px;
+  margin: 20px;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: white;
+  color: red;
+  cursor: pointer;
+}
+
+.new-production {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.new-production-form input {
+  width: 400px;
+  margin-bottom: 10px;
+}
+
+.new-production-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.new-production-buttons button {
+  height: auto;
+}
+
+.edit-production-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.edit-production-buttons button {
+  height: auto;
+}
+
+.new-production-button {
+  background-color: cornflowerblue;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.new-production-button:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.admin-contact {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.admin-contact-list {
+  width:80%;
+}
+
+.admin-contact-details-card {
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:rgb(54, 54, 54);
+    margin: 10px;
+}
+
+.admin-contact-card-details {
+  margin-left: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.admin-contact-card-details-card {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-between; 
+}
+
+.admin-contact-card-details-buttons {
+  display:flex;
+  justify-content: flex-end;
+}
+
+.admin-contact-div {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.admin-icon-card {
+  display: flex;
+  width: 100%;
+  padding-top: 10px;
+  justify-content: space-between;
+}
+
+.admin-icon-card-details {
+  display:flex;
+  width: 15%;
+  justify-content: space-evenly;
+}

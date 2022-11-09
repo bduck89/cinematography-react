@@ -1,0 +1,62 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.contact h1 {
+  font-size: 1.2em;
+  margin-bottom: 0px;
+}
+
+.contact-column-split {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.contact-column {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-column h2 {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 565px) {
+  .contact-column-split {
+    flex-direction: row;
+  }
+
+  
+}
+
+@media screen and (min-width: 700px) {
+  .contact {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .contact h1 {
+    font-size: 1.4em;
+  }
+
+  .contact-column h2 {
+    font-size: 1.2em;
+  }
+}
+
+.social-row {
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+}

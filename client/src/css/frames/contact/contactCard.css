@@ -1,0 +1,23 @@
+.contact-card {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.contact-card h3,
+.contact-card h5 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.contact-card h5{
+  margin-left: 15px;
+}
+
+@media screen and (min-width: 700px) {
+  .contact-card h3,
+  .contact-card h5 {
+    font-size: 1.1em;
+  }
+}

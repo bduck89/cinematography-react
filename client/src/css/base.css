@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  #root {
+    width: 100%;
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  form {
+    margin-top: 25px;
+  }
+  
+  input {
+    color: black;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    width: fit-content;
+  }

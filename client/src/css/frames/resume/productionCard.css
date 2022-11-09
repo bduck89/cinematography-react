@@ -1,0 +1,30 @@
+.production-card {
+  display: flex;
+  width: 100%;
+  margin-bottom: 14px;
+}
+
+.production-card h4 {
+  margin: 3px;
+  font-size: 0.6em;
+}
+
+.production-card-column {
+  width: 33.3%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.production-card-column-detail-list {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+@media screen and (min-width: 800px) {
+  .production-card h4 {
+    font-size: 0.8em;
+  }
+}

@@ -1,0 +1,62 @@
+.tileboard-work {
+  margin-top: 0px;
+  width: 100%;
+}
+
+.tile-row {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-tile-wrapper {
+    width: 100%;
+}
+
+.main-tile {
+  display: flex;
+  width: 100%;
+  height: 0px;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.right-tiles {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.right-tile-upper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 0px;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.right-tile-lower {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 0px;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+@media screen and (min-width: 600px) {
+    .tile-row {
+        flex-direction: row;
+    }
+
+    .main-tile-wrapper {
+        width: 66%
+    }
+
+    .right-tiles {
+        width: 33%;
+    }
+}
